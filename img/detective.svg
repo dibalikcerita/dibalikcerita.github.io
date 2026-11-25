@@ -1,0 +1,86 @@
+<svg viewBox="0 0 600 900" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="coatGrad" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#52708F"/>
+<stop offset="1" stop-color="#36506E"/>
+</linearGradient>
+<linearGradient id="hatGrad" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#28344A"/>
+<stop offset="1" stop-color="#1B263B"/>
+</linearGradient>
+</defs>
+
+<g stroke="#2B2B2B" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+
+<!-- back arm (left, relaxed) -->
+<path d="M212,400 C170,440 170,560 190,630 C200,650 230,645 235,620 C225,560 230,470 250,410 Z" fill="url(#coatGrad)"/>
+<circle cx="196" cy="632" r="34" fill="#E0E1DD"/>
+
+<!-- legs -->
+<rect x="228" y="750" width="62" height="150" rx="22" fill="#1B263B"/>
+<rect x="312" y="750" width="62" height="150" rx="22" fill="#1B263B"/>
+<!-- shoes -->
+<ellipse cx="256" cy="892" rx="56" ry="28" fill="#28344A"/>
+<ellipse cx="346" cy="892" rx="56" ry="28" fill="#28344A"/>
+
+<!-- coat body -->
+<path d="M198,370 C185,520 190,660 212,778 C260,800 340,800 388,778 C410,660 415,520 402,370 L352,338 C320,372 280,372 248,338 Z" fill="url(#coatGrad)"/>
+<!-- coat shade -->
+<path d="M352,400 C360,520 358,650 345,770 C365,765 380,772 388,778 C410,660 415,520 402,370 L380,355 C368,370 360,385 352,400 Z" fill="#28344A" opacity="0.5" stroke="none"/>
+
+<!-- belt -->
+<rect x="212" y="548" width="176" height="24" rx="10" fill="#1B263B"/>
+<rect x="282" y="548" width="36" height="24" rx="6" fill="#E0E1DD"/>
+
+<!-- lapels -->
+<path d="M282,342 L300,400 L258,360 Z" fill="#1B263B"/>
+<path d="M318,342 L300,400 L342,360 Z" fill="#1B263B"/>
+
+<!-- scarf -->
+<path d="M262,330 C280,350 320,350 338,330 L332,380 C310,395 290,395 268,380 Z" fill="#E0E1DD"/>
+
+<!-- front arm (right, bent holding glass) -->
+<path d="M390,400 C430,420 448,450 450,500 C452,530 440,545 420,540 C405,500 400,450 350,415 Z" fill="url(#coatGrad)"/>
+
+<!-- magnifier handle -->
+<rect x="438" y="420" width="22" height="70" rx="9" fill="#1B263B" transform="rotate(25 449 455)"/>
+<!-- hand -->
+<circle cx="440" cy="492" r="34" fill="#E0E1DD"/>
+<!-- magnifier glass -->
+<circle cx="470" cy="390" r="58" fill="#E0E1DD"/>
+<circle cx="470" cy="390" r="58" fill="none" stroke="#1B263B" stroke-width="14"/>
+<ellipse cx="452" cy="368" rx="14" ry="22" fill="#FFFFFF" opacity="0.5" stroke="none"/>
+
+<!-- head -->
+<circle cx="300" cy="230" r="104" fill="#E0E1DD"/>
+
+<!-- hat brim -->
+<ellipse cx="300" cy="182" rx="146" ry="30" fill="url(#hatGrad)"/>
+<!-- hat crown -->
+<rect x="222" y="86" width="156" height="92" rx="24" fill="url(#hatGrad)"/>
+<rect x="222" y="148" width="156" height="26" fill="#415A77" stroke="none"/>
+
+<!-- eyes -->
+<circle cx="262" cy="236" r="30" fill="#FFFFFF"/>
+<circle cx="338" cy="236" r="30" fill="#FFFFFF"/>
+<circle cx="266" cy="242" r="13" fill="#1B263B" stroke="none"/>
+<circle cx="342" cy="242" r="13" fill="#1B263B" stroke="none"/>
+<circle cx="270" cy="236" r="4" fill="#FFFFFF" stroke="none"/>
+<circle cx="346" cy="236" r="4" fill="#FFFFFF" stroke="none"/>
+
+<!-- eyebrows -->
+<path d="M236,196 Q262,182 288,196" fill="none" stroke="#1B263B" stroke-width="10"/>
+<path d="M312,196 Q338,182 364,196" fill="none" stroke="#1B263B" stroke-width="10"/>
+
+<!-- nose -->
+<path d="M300,250 Q310,266 298,272" fill="none" stroke="#1B263B" stroke-width="7"/>
+
+<!-- smile -->
+<path d="M266,292 Q300,318 334,292" fill="none" stroke="#1B263B" stroke-width="9"/>
+
+<!-- blush -->
+<ellipse cx="228" cy="276" rx="16" ry="11" fill="#415A77" opacity="0.4" stroke="none"/>
+<ellipse cx="372" cy="276" rx="16" ry="11" fill="#415A77" opacity="0.4" stroke="none"/>
+
+</g>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900">
+  <defs>
+    <g id="eye">
+      <circle r="24" fill="#F4E9D8" stroke="#2B2B2B" stroke-width="6"/>
+      <circle r="11" cx="4" cy="-3" fill="#3B6E8F"/>
+      <circle r="3.5" cx="8" cy="-7" fill="#FFFFFF"/>
+    </g>
+  </defs>
+
+  <!-- LEGS -->
+  <path d="M255,690 Q240,770 245,850" stroke="#2B2B2B" stroke-width="92" fill="none" stroke-linecap="round"/>
+  <path d="M255,690 Q240,770 245,850" stroke="#3B6E8F" stroke-width="76" fill="none" stroke-linecap="round"/>
+  <path d="M345,690 Q360,770 355,850" stroke="#2B2B2B" stroke-width="92" fill="none" stroke-linecap="round"/>
+  <path d="M345,690 Q360,770 355,850" stroke="#3B6E8F" stroke-width="76" fill="none" stroke-linecap="round"/>
+  <ellipse cx="245" cy="870" rx="56" ry="30" fill="#C9A66B" stroke="#2B2B2B" stroke-width="6"/>
+  <ellipse cx="355" cy="870" rx="56" ry="30" fill="#C9A66B" stroke="#2B2B2B" stroke-width="6"/>
+
+  <!-- ARMS -->
+  <path d="M195,400 Q150,470 160,600" stroke="#2B2B2B" stroke-width="84" fill="none" stroke-linecap="round"/>
+  <path d="M195,400 Q150,470 160,600" stroke="#F4E9D8" stroke-width="68" fill="none" stroke-linecap="round"/>
+  <circle cx="160" cy="600" r="38" fill="#F4E9D8" stroke="#2B2B2B" stroke-width="6"/>
+
+  <path d="M405,400 Q460,460 430,340" stroke="#2B2B2B" stroke-width="84" fill="none" stroke-linecap="round"/>
+  <path d="M405,400 Q460,460 430,340" stroke="#F4E9D8" stroke-width="68" fill="none" stroke-linecap="round"/>
+  <circle cx="430" cy="335" r="38" fill="#F4E9D8" stroke="#2B2B2B" stroke-width="6"/>
+
+  <!-- NECK -->
+  <rect x="280" y="325" width="40" height="45" rx="10" fill="#F4E9D8" stroke="#2B2B2B" stroke-width="6"/>
+
+  <!-- TORSO / COAT -->
+  <path d="M195,370 C230,340 370,340 405,370 L430,650 C400,715 200,715 170,650 Z" fill="#F4E9D8" stroke="#2B2B2B" stroke-width="6"/>
+  <path d="M220,400 Q300,380 380,400" stroke="#FFFFFF" stroke-width="18" opacity="0.15" fill="none" stroke-linecap="round"/>
+
+  <!-- VEST -->
+  <path d="M275,365 L300,470 L325,365 Z" fill="#3B6E8F" stroke="#2B2B2B" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="300" cy="520" r="9" fill="#3B6E8F" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="300" cy="580" r="9" fill="#3B6E8F" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="300" cy="640" r="9" fill="#3B6E8F" stroke="#2B2B2B" stroke-width="4"/>
+  <rect x="215" y="560" width="52" height="36" rx="8" fill="#3B6E8F" opacity="0.18" stroke="#2B2B2B" stroke-width="4"/>
+
+  <!-- TEST TUBE PROP -->
+  <rect x="405" y="200" width="46" height="140" rx="20" fill="#F4E9D8" stroke="#2B2B2B" stroke-width="6"/>
+  <path d="M409,262 Q428,274 447,262 L447,332 Q428,344 409,332 Z" fill="#3B6E8F"/>
+  <circle cx="420" cy="292" r="5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="436" cy="308" r="4" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M428,160 L438,180 L458,185 L438,190 L428,210 L418,190 L398,185 L418,180 Z" fill="#C9A66B" stroke="#2B2B2B" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- HAIR BACK -->
+  <path d="M190,185 Q300,90 410,185 Q398,145 300,120 Q202,145 190,185 Z" fill="#C9A66B" stroke="#2B2B2B" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M365,128 Q388,100 408,122 Q392,138 365,128 Z" fill="#C9A66B" stroke="#2B2B2B" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- HEAD -->
+  <circle cx="300" cy="230" r="105" fill="#F4E9D8" stroke="#2B2B2B" stroke-width="6"/>
+  <ellipse cx="220" cy="268" rx="18" ry="10" fill="#C9A66B" opacity="0.5"/>
+  <ellipse cx="380" cy="268" rx="18" ry="10" fill="#C9A66B" opacity="0.5"/>
+
+  <!-- EYEBROWS -->
+  <path d="M245,192 Q265,176 285,193" stroke="#2B2B2B" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M315,188 Q335,170 358,192" stroke="#2B2B2B" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- EYES -->
+  <use href="#eye" x="265" y="232"/>
+  <use href="#eye" x="335" y="232"/>
+  <line x1="289" y1="232" x2="311" y2="232" stroke="#2B2B2B" stroke-width="6"/>
+
+  <!-- MOUTH -->
+  <path d="M268,292 Q300,314 332,292" stroke="#2B2B2B" stroke-width="7" fill="none" stroke-linecap="round"/>
+</svg>
